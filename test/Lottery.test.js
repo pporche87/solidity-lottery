@@ -3,6 +3,7 @@ const ganache = require('ganache-cli');
 const Web3 = require('web3');
 const provider = ganache.provider()
 const web3 = new Web3(provider);
+
 const { interface, bytecode } = require('../compile');
 
 let lottery;
@@ -98,7 +99,7 @@ describe('Lottery Contract', () => {
     await lottery.methods.pickWinner().send({ from: accounts[0] });
     const finalBalance = await web3.eth.getBalance(accounts[0]);
     const difference = finalBalance - initialBalance;
-    
+
     assert(difference > web3.utils.toWei('1.8', 'ether'));
   });
 });

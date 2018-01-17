@@ -6,7 +6,7 @@ const provider = new HDWalletProvider(
   // ==============================================================
   // =========== Enter your 12 word mneumonic on the following line
   // ==============================================================
-  "clown chronic distance jacket skirt expose city tuition provide feed satisfy tonight",
+  "",
   "https://rinkeby.infura.io/jphU0izevckhZcphZulo"
 );
 
