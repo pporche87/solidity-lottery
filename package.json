@@ -1,0 +1,26 @@
+{
+  "name": "solidity-boiler",
+  "version": "1.0.0",
+  "description": "Solidity/Ethereum Contract Deployment Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pporche87/solidity-boiler.git"
+  },
+  "author": "Patrick Porche <pporche87@gmail.com> (http://pporche87.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pporche87/solidity-boiler/issues"
+  },
+  "homepage": "https://github.com/pporche87/solidity-boiler#readme",
+  "dependencies": {
+    "ganache-cli": "^6.0.3",
+    "mocha": "^4.1.0",
+    "solc": "^0.4.19",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "^1.0.0-beta.26"
+  }
+}
